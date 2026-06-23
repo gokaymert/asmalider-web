@@ -27,7 +27,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     images: ["/images/logo2.jpg"]
-  }
+  },
+  verification: {
+    google: 'MrpGTKHNF9PGYmT5AuYVtQDQXUJgtd55fcOtTMHelhk',
+  },
 };
 
 const jsonLd = {
