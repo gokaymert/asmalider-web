@@ -12,6 +12,9 @@ const siteUrl = rawUrl && rawUrl.startsWith("http")
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  alternates: {
+    canonical: "/",
+  },
   title: {
     default: "Asmalı Derneği",
     template: "%s | Asmalı Derneği"
